@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Love Generator</h1>
+        <div class="form">
+            <label for="yourName">Enter Your Name:</label>
+            <input type="text" id="yourName" placeholder="Your Name">
+            <label for="crushName">Enter Your Crush Name:</label>
+            <input type="text" id="crushName" placeholder="Crush Name">
+            <label>Select Your Status:</label>
+            <input type="radio" name="status" value="Single" id="single">
+            <label for="single">Single</label>
+            <input type="radio" name="status" value="Committed" id="committed">
+            <label for="committed">Committed</label>
+            <button id="generateButton">Suggest A Pickup Line</button>
+        </div>
+        <div class="result">
+            <p id="resultText"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

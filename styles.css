@@ -1,0 +1,54 @@
+body {
+    font-family: "Gill Sans MT", sans-serif;
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: blue;
+}
+
+.form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+    color: blue;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: red;
+}
